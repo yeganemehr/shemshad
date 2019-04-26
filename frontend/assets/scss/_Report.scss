@@ -1,0 +1,59 @@
+body.report {
+	background: #f8f8f8;
+	.page {
+		background: #fff;
+		width: 21.5cm;
+		margin: 20px auto;
+		padding: 0;
+		box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+		padding-right: 15px;
+		header {
+			padding: 25px 15px 15px;
+			.logo {
+				font-family: "IranNastaliq";
+				font-size: 33px;
+				text-align: center;
+			}
+			.title {
+				font-family: "B Zar";
+				font-weight: 700;
+			}
+			.details {
+				text-align: left;
+				strong {
+					font-family: "B Yekan";
+				}
+				.ltr {
+					display: inline-block;
+					text-align: left;
+					font-family: "B Zar";
+    				font-size: 17px;
+				}
+			}
+			hr {
+				width: 85%;
+			}
+		}
+		h2 {
+			font-family: B Zar;
+			text-align: center;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		table {
+			font-family: IRanSans;
+			thead {
+				th {
+					font-family: "B Yekan";
+					border-top: 0;
+				}
+			}
+		}
+		.fa-check-circle {
+			color: #089929;
+		}
+		.fa-times-circle {
+			color: #fc1c31;
+		}
+	}
+}
